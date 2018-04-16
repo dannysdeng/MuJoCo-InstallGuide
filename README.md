@@ -1,3 +1,5 @@
+Tested on Ubuntu 14.04 and 16.04
+
 #############################################################################
 sudo apt-get install unzip;
 sudo apt-get install libglfw3-dev; 
