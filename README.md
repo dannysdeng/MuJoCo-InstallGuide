@@ -1,8 +1,8 @@
 #############################################################################
 
-sudo apt-get install libglfw3-dev; \n
-sudo apt-get install libglew-dev; \n
-sudo apt-get install libosmesa6-dev; \n
+sudo apt-get install libglfw3-dev; 
+sudo apt-get install libglew-dev; 
+sudo apt-get install libosmesa6-dev; 
 cd /usr/lib/; sudo ln -s libGL.so.1 libGL.so; cd -;
 
 #############################################################################
