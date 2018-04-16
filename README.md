@@ -7,11 +7,11 @@ Tested on Ubuntu 14.04 and 16.04
 --  Terminal: 
 
 
->	sudo apt-get install unzip;
->	sudo apt-get install libglfw3-dev; 
->	sudo apt-get install libglew-dev; 
->	sudo apt-get install libosmesa6-dev; 
->	cd /usr/lib/; sudo ln -s libGL.so.1 libGL.so; cd -;
+>	sudo apt-get install unzip;    
+>	sudo apt-get install libglfw3-dev;     
+>	sudo apt-get install libglew-dev;     
+>	sudo apt-get install libosmesa6-dev;   
+>	cd /usr/lib/; sudo ln -s libGL.so.1 libGL.so; cd -;  
 
 #############################################################################
 
