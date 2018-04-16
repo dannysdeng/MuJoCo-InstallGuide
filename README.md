@@ -26,18 +26,26 @@ Tested on Ubuntu 14.04 and 16.04
   >	unzip mjpro150_linux.zip -d ~/.mujoco;   
 
 #############################################################################
+
   >	wget https://www.roboti.us/getid/getid_linux;   
   >	chmod 755 ./getid_linux;   
   >	./getid_linux;   
+  
 #############################################################################
+
   >	cp mjkey_158.txt  ~/.mujoco/mjkey.txt;   
   >	ls ~/.mujoco/mjkey.txt;   
+  
 #############################################################################
+
   >	echo 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/danny/.mujoco/mjpro150/bin' >> ~/.bashrc;   
   >	source ~/.bashrc;   
+  
 #############################################################################
+
  	>	python; 
 	>	import mujoco_py    
+	
 #############################################################################
 
 
