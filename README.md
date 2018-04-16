@@ -23,8 +23,8 @@ chmod 755 ./getid_linux;
 ./getid_linux;
 
 #############################################################################
-
-cp mjkey_158.txt  ~/.mujoco/mjkey.txt
+mkdir ~/.mujoco;
+cp mjkey_158.txt  ~/.mujoco/mjkey.txt;
 ls ~/.mujoco/mjkey.txt;
 
 #############################################################################
