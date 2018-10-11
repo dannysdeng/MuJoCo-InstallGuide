@@ -61,3 +61,26 @@ if gcc error (like sth to do with std=c99):
  	>	python; 
 	>	import mujoco_py    
 
+
+#############################################################################
+# To render openai/gym (even with mujoco) remotely on a headless server:
+Install and configure X window with virtual screen
+
+  >	sudo apt-get install xserver-xorg libglu1-mesa-dev freeglut3-dev mesa-common-dev libxmu-dev libxi-dev
+  
+Configure the nvidia-x
+
+  >	sudo nvidia-xconfig -a --use-display-device=None --virtual=1280x1024
+  
+Run the virtual screen in the background (:0)
+
+  >	sudo /usr/bin/X :0 &
+  
+We only need to setup the virtual screen once
+
+Run the program with vitural screen
+
+  >	DISPLAY=:0 <program>
+
+DISPLAY=:0 python
+
