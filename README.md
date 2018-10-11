@@ -84,3 +84,4 @@ Run the program with vitural screen
 
 DISPLAY=:0 python
 
+source: https://stackoverflow.com/questions/40195740/how-to-run-openai-gym-render-over-a-server/45179251#45179251
